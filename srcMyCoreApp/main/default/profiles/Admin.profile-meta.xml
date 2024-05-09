@@ -21,6 +21,9 @@
         <layout>Audit__c-Audit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Bicycle_KA__c-Bicycle-KA Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Bicycle_NL__c-Bicycle-NL Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
