@@ -9,6 +9,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Bicycle_NL__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Bicycle_RV__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -27,6 +32,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bicycle_KA__c-Bicycle-KA Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bicycle_NL__c-Bicycle-NL Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bicycle_RV__c-Bicycle-RV Layout</layout>
@@ -59,6 +67,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Bicycle_KA__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Bicycle_NL__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
