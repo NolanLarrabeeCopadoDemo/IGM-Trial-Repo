@@ -22,6 +22,11 @@
         <field>Bicycle_SB__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Bicycle_SS__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Audit__c-Audit Layout</layout>
     </layoutAssignments>
@@ -36,6 +41,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Bicycle_SB__c-Bicycle-SB Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Bicycle_SS__c-Bicycle-SS Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
@@ -86,6 +94,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Bicycle_SB__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Bicycle_SS__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <userLicense>Salesforce</userLicense>
